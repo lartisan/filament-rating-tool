@@ -11,8 +11,11 @@ use Filament\Support\Contracts\HasIcon as IconInterface;
 class RatingInput extends Field
 {
     protected TextEntrySize | string | Closure | null $size = null;
+
     protected string | array | bool | Closure | null $color = null;
+
     protected string | bool | Closure | null $icon = null;
+
     protected TextEntrySize | string | Closure | null $maxValue = null;
 
     protected string $view = 'filament-rating-tool::forms.components.rating-input';

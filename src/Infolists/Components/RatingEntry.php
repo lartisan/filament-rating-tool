@@ -16,8 +16,8 @@ class RatingEntry extends Entry
         getIcon as getBaseIcon;
     }
 
-
     protected TextEntrySize | string | Closure | null $size = null;
+
     protected TextEntrySize | string | Closure | null $maxValue = null;
 
     protected string $view = 'filament-rating-tool::infolists.components.rating-entry';

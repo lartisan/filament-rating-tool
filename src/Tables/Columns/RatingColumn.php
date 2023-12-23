@@ -17,6 +17,7 @@ class RatingColumn extends Column
     }
 
     protected TextColumnSize | string | Closure | null $size = null;
+
     protected TextColumnSize | string | Closure | null $maxValue = null;
 
     protected string $view = 'filament-rating-tool::tables.columns.rating-column';
