@@ -1,29 +1,29 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "lartisan/filament-rating-tool",
+    "description": "Rating Tool is a FilamentPHP plugin meant to provide a set of tools for measuring or rating different resources of your app.",
     "keywords": [
-        ":vendor_name",
-        "laravel",
-        ":package_slug"
+        "filament plugin",
+        "filament text input",
+        "filament text column",
+        "filament text entry",
+        "filament-rating-tool"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/lartisan/filament-rating-tool",
     "support": {
-        "issues": "https://github.com/:vendor_slug/:package_slug/issues",
-        "source": "https://github.com/:vendor_slug/:package_slug"
+        "issues": "https://github.com/lartisan/filament-rating-tool/issues",
+        "source": "https://github.com/lartisan/filament-rating-tool"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Cristian Iosif",
+            "email": "hello@filamentcomponents.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.1",
         "filament/filament": "^3.0",
-        "filament/forms": "^3.0",
-        "filament/tables": "^3.0",
         "spatie/laravel-package-tools": "^1.15.0",
         "illuminate/contracts": "^10.0"
     },
@@ -37,18 +37,17 @@
         "pestphp/pest-plugin-laravel": "^2.0",
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan-deprecation-rules": "^1.0",
-        "phpstan/phpstan-phpunit": "^1.0",
-        "spatie/laravel-ray": "^1.26"
+        "phpstan/phpstan-phpunit": "^1.0"
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Lartisan\\RatingTool\\": "src/",
+            "Lartisan\\RatingTool\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "Lartisan\\RatingTool\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -68,10 +67,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Lartisan\\RatingTool\\RatingToolServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "RatingTool": "Lartisan\\RatingTool\\Facades\\RatingTool"
             }
         }
     },
