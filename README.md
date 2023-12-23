@@ -103,12 +103,6 @@ RatingEntry::make('rating')
 
 ![Hotel infolist](./screenshots/hotels-view.png "Hotel infolist")
 
-## Testing
-
-```bash
-composer test
-```
-
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
