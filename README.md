@@ -51,6 +51,8 @@ RatingInput::make('rating')
     }),
 ```
 
+![Edit meals form](./screenshots/meals-edit.png "Edit meals form")
+
 These are all the possible methods one can use to configure this field. As you can see, you can provide a `maxValue` for your input, so if you want to match some custom color based on the `$state`, you'll need the same amount of colors. Of course, one can only choose one color for all the symbols of the field
 
 ```php
@@ -77,6 +79,7 @@ RatingColumn::make('rating')
     }),
     // ...
 ```
+![Hotels table](./screenshots/hotels-list.png "Hotels table")
 
 ## Infolist Usage
 ... and another one to display the infolist when viewing the records
@@ -97,6 +100,8 @@ RatingEntry::make('rating')
     }),
     // ...
 ```
+
+![Hotel infolist](./screenshots/hotels-view.png "Hotel infolist")
 
 ## Testing
 
